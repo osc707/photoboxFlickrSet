@@ -36,16 +36,3 @@ How to use :
 		</script>
 	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-K6K243
-M6K243
