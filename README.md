@@ -15,24 +15,24 @@ Dependencies
 
 How to use :
 
-<!DOCTYPE HTML>
-<html lang="en">
-  <head>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-		<script src="photobox/photobox.min.js"></script>
-		<script src="photobox/jquery.photoboxFlickrSet.js"></script>
-		<link href="photobox/photobox.css" rel="stylesheet" type="text/css" media="all"/>
-	</head>
-	<body>
-		<div id="galleryContainer"></div>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('#galleryContainer').photoboxFlickrSet({
-					'flickr_API_Key' : 'YOUR_FLICKR_API_KEY',
-					'photosetId' : 'FLICKR_PHOTO_SET_ID',
-					'usePhotoTitle' : true
-				});
-			});
-		</script>
-	</body>
-</html>
+&lt;!DOCTYPE HTML&gt;<br/>
+&lt;html lang="en"&gt;<br/>
+  &lt;head&gt;<br/>
+    &lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"&gt;&lt;/script&gt;<br/>
+    &lt;script src="photobox/photobox.min.js"&gt;&lt;/script&gt;<br/>
+    &lt;script src="photobox/jquery.photoboxFlickrSet.js"&gt;&lt;/script&gt;<br/>
+    &lt;link href="photobox/photobox.css" rel="stylesheet" type="text/css" media="all"/&gt;<br/>
+  &lt;/head&gt;<br/>
+  &lt;body&gt;<br/>
+    &lt;div id="galleryContainer"&gt;&lt;/div&gt;<br/>
+    &lt;script type="text/javascript"&gt;<br/>
+      $(document).ready(function() {<br/>
+        $('#galleryContainer').photoboxFlickrSet({<br/>
+          'flickr_API_Key' : 'YOUR_FLICKR_API_KEY',<br/>
+          'photosetId' : 'FLICKR_PHOTO_SET_ID',<br/>
+          'usePhotoTitle' : true<br/>
+        });<br/>
+      });<br/>
+    &lt;/script&gt;<br/>
+  &lt;/body&gt;<br/>
+&lt;/html&gt;<br/>
